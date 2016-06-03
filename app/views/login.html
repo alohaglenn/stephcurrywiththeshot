@@ -1,0 +1,20 @@
+<nav></nav>
+
+<md-content>
+    <section layout-padding>
+      <div layout-padding></div>
+      <div layout="column">
+        <md-button class="md-raised login-button" id="facebook" ng-click="oauthLogin('facebook')">Sign in with Facebook</md-button>
+        <div layout-padding></div>
+        <md-button class="md-raised login-button" id="google" ng-click="oauthLogin('google')">Sign in with Google</md-button>
+        <div layout-padding></div>
+        <md-button class="md-raised login-button" id="twitter" ng-click="oauthLogin('twitter')">Sign in with Twitter</md-button>
+        <div layout-padding></div>
+        <md-button class="md-raised login-button" id="github" ng-click="oauthLogin('github')">Sign in with GitHub</md-button>
+        <div layout-padding></div>
+        <center><span id="or">- or -</span></center>
+        <div layout-padding></div>
+        <md-button class="md-raised login-button" id="guest" ng-click="anonymousLogin()">Sign in as Guest</md-button>
+      </div>
+    </section>
+</md-content>

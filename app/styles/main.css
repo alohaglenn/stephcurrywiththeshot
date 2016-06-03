@@ -1,0 +1,104 @@
+body {
+  padding: 0;
+}
+
+.login-button {
+  width: 20em;
+  border-radius: 0.25em;
+  margin: auto;
+  text-transform: none;
+}
+
+#toolbar {
+  background-color: #006BB6;
+}
+
+#toolbar-brand {
+  font-size: 1em; 
+  padding-left: 1.5em;
+  color: #FDB927;
+  font-weight: bold;
+  background-color: initial;
+}
+
+#login {
+  font-weight: bold;
+}
+
+#logout-button {
+  margin: 0;
+  padding-right: 3em;
+  color: #FDB927;
+  background-color: #006BB6;
+}
+
+#facebook {
+  background-color: #3b5998;
+  color: #FFFFFF;
+}
+
+#facebook:hover {
+  background-color: #FFFFFF;
+  color: #3b5998;
+}
+
+#google {
+  background-color: #d50f25;
+  color: #FFFFFF;
+}
+
+#google:hover {
+  background-color: #FFFFFF;
+  color: #d50f25;
+}
+
+#twitter {
+  background-color: #4183c4;
+  color: #FFFFFF;
+}
+
+#twitter:hover {
+  background-color: #FFFFFF;
+  color: #4183c4;
+}
+
+#github {
+  background-color: #333333;
+  color: #FFFFFF;
+}
+
+#github:hover {
+  background-color: #FFFFFF;
+  color: #333333;
+}
+
+#guest {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+#guest:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+#or {
+  font-size: 0.8em;
+  opacity: 0.5;
+}
+
+#unsupported-modal {
+  height: 300px;"
+}
+
+#chrome {
+  color: blue; 
+  font-weight: bold; 
+  cursor: pointer; 
+  text-decoration: none;
+}
+
+#sad-frog {
+  height: 50%; 
+  width: 50%;
+}
